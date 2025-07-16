@@ -1,3 +1,4 @@
+video link: https://www.loom.com/share/55102fdb6e454681bc6fed9fb94940e0?sid=12142927-1184-483c-910f-84c4151b213a
 # Statement Analyzer
 
 This project provides an AI-powered tool to analyze financial transactions from a CSV file and answer specific questions based on the data. It leverages the NeuroLink library to act as a "NeuroLink" for data analysis.
