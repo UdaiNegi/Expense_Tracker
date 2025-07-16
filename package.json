@@ -1,0 +1,24 @@
+{
+  "name": "statement-analyzer",
+  "version": "1.0.0",
+  "description": "AI-powered CSV statement analyzer using NeuroLink concept",
+  "main": "statement_analyzer.js",
+  "type": "module",
+  "scripts": {
+    "start": "node statement_analyzer.js"
+  },
+  "keywords": [
+    "ai",
+    "neurolink",
+    "csv",
+    "statement",
+    "analyzer"
+  ],
+  "author": "Cline",
+  "license": "MIT",
+  "dependencies": {
+    "@juspay/neurolink": "^1.10.0",
+    "csv-parse": "^5.5.6",
+    "dotenv": "^16.4.5"
+  }
+}
