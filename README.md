@@ -1,3 +1,5 @@
+<img width="1439" height="572" alt="image" src="https://github.com/user-attachments/assets/e3aedfab-c7c1-46df-9d32-1ddf5f7335ad" />
+
 # Financial Assistant with NeuroLink
 
 This project demonstrates a financial assistant built using the NeuroLink SDK, leveraging custom Model Context Protocol (MCP) tools to interact with AI models. The assistant can process transaction data, analyze spending/income, and calculate income tax slabs based on Indian tax rules.
