@@ -1,24 +1,25 @@
 {
-  "name": "statement-analyzer",
+  "name": "psvr-project",
   "version": "1.0.0",
-  "description": "AI-powered CSV statement analyzer using NeuroLink concept",
-  "main": "statement_analyzer.js",
-  "type": "module",
+  "description": "A project to demonstrate NeuroLink SDK and custom MCP tools.",
+  "main": "dist/index.js",
   "scripts": {
-    "start": "node statement_analyzer.js"
+    "start": "ts-node src/index.ts",
+    "build": "tsc",
+    "dev": "nodemon --watch src --exec ts-node src/index.ts"
   },
-  "keywords": [
-    "ai",
-    "neurolink",
-    "csv",
-    "statement",
-    "analyzer"
-  ],
-  "author": "Cline",
+  "keywords": [],
+  "author": "",
   "license": "MIT",
   "dependencies": {
-    "@juspay/neurolink": "^1.10.0",
+    "@juspay/neurolink": "^6.1.0",
     "csv-parse": "^5.5.6",
-    "dotenv": "^16.4.5"
+    "zod": "^3.23.8"
+  },
+  "devDependencies": {
+    "@types/node": "^20.14.10",
+    "nodemon": "^3.1.4",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.5.3"
   }
 }

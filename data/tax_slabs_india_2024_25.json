@@ -1,0 +1,40 @@
+{
+  "financial_year": "2024-2025",
+  "assessment_year": "2025-2026",
+  "regimes": {
+    "old": {
+      "less_than_60": [
+        {"min_income": 0, "max_income": 250000, "rate": 0, "base_tax": 0},
+        {"min_income": 250001, "max_income": 500000, "rate": 0.05, "base_tax": 0},
+        {"min_income": 500001, "max_income": 1000000, "rate": 0.20, "base_tax": 12500},
+        {"min_income": 1000001, "max_income": 9007199254740991, "rate": 0.30, "base_tax": 112500}
+      ],
+      "between_60_and_80": [
+        {"min_income": 0, "max_income": 300000, "rate": 0, "base_tax": 0},
+        {"min_income": 300001, "max_income": 500000, "rate": 0.05, "base_tax": 0},
+        {"min_income": 500001, "max_income": 1000000, "rate": 0.20, "base_tax": 10000},
+        {"min_income": 1000001, "max_income": 9007199254740991, "rate": 0.30, "base_tax": 110000}
+      ],
+      "above_80": [
+        {"min_income": 0, "max_income": 500000, "rate": 0, "base_tax": 0},
+        {"min_income": 500001, "max_income": 1000000, "rate": 0.20, "base_tax": 0},
+        {"min_income": 1000001, "max_income": 9007199254740991, "rate": 0.30, "base_tax": 100000}
+      ]
+    },
+    "new": {
+      "all_ages": [
+        {"min_income": 0, "max_income": 300000, "rate": 0, "base_tax": 0},
+        {"min_income": 300001, "max_income": 700000, "rate": 0.05, "base_tax": 0},
+        {"min_income": 700001, "max_income": 1000000, "rate": 0.10, "base_tax": 20000},
+        {"min_income": 1000001, "max_income": 1200000, "rate": 0.15, "base_tax": 50000},
+        {"min_income": 1200001, "max_income": 1500000, "rate": 0.20, "base_tax": 80000},
+        {"min_income": 1500001, "max_income": 9007199254740991, "rate": 0.30, "base_tax": 140000}
+      ]
+    }
+  },
+  "rebate_87A": {
+    "old": {"max_income": 500000, "max_rebate": 12500},
+    "new": {"max_income": 700000, "max_rebate": 20000}
+  },
+  "cess_rate": 0.04
+}

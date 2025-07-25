@@ -1,11 +1,26 @@
-date,description,amount
-2024-01-01,Coffee Shop,15.50
-2024-01-02,Groceries,75.20
-2024-01-03,Salary,25000.00
-2024-01-04,Coffee Shop,4.00
-2024-01-05,Restaurant,50.00
-2024-02-01,Coffee Shop,3.50
-2024-02-05,Rent,1200.00
-2024-02-10,Coffee Shop,6.00
-2024-02-15,Books,25.00
-2024-03-01,Coffee Shop,4.50
+Date,Description,Amount,Category,Type
+2025-07-01,Coffee Shop,150,Food,Expense
+2025-07-01,Bus Ticket,50,Transport,Expense
+2025-07-02,Salary,50000,Income,Income
+2025-07-03,Groceries,500,Food,Expense
+2025-07-04,Online Course,1200,Education,Expense
+2025-07-05,Restaurant Dinner,750,Food,Expense
+2025-07-06,Freelance Payment,10000,Income,Income
+2025-07-07,Movie Tickets,300,Entertainment,Expense
+2025-07-08,Coffee Shop,120,Food,Expense
+2025-07-09,Rent,15000,Housing,Expense
+2025-07-10,Electricity Bill,800,Utilities,Expense
+2025-07-11,Books,400,Education,Expense
+2025-07-12,Gym Membership,1000,Health,Expense
+2025-07-13,Gift,250,Miscellaneous,Expense
+2025-07-14,Bonus,5000,Income,Income
+2025-07-15,Groceries,600,Food,Expense
+2025-07-16,Cab Fare,180,Transport,Expense
+2025-07-17,Subscription Service,200,Entertainment,Expense
+2025-07-18,Coffee Shop,130,Food,Expense
+2025-07-19,Internet Bill,700,Utilities,Expense
+2025-07-20,Medical Checkup,1500,Health,Expense
+2025-07-21,Investment,2000,Savings,Expense
+2025-07-22,Lunch,250,Food,Expense
+2025-07-23,Bus Ticket,60,Transport,Expense
+2025-07-24,Dinner,800,Food,Expense
